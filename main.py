@@ -28,7 +28,7 @@ def main():
             m = km * 1000.0
             print(f"{round(km, 1)} km is {round(m, 1)} m")
         elif l_choice == 0:
-            pass
+            print("Exiting...")
         else:
             print("Unknown option.")
             
@@ -50,12 +50,12 @@ def main():
             g = lbs * conversion_factor
             print(f"{round(lbs, 1)} lb is {round(g, 1)} g")
         elif w_choice == 0:
-            pass
+            print("Exiting...")
         else:
             print("Unknown option.")
             
     elif choice == 0:
-        pass
+        print("Exiting...")
     else:
         print("Unknown option.")
 
